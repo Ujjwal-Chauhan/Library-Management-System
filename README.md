@@ -27,4 +27,4 @@ This program allows users to add books, manage users, borrow books, return books
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Ujjwal-Chauhan/library-Management-System.git
+   git clone https://github.com/Ujjwal-Chauhan/Library-Management-System.git
