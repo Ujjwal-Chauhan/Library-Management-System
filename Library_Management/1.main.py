@@ -22,8 +22,9 @@ class Library:
         if user_name in self.users:
             print("user already exist")
             return
-        self.users[user_name] = User(user_name)  # self.users = {user_name - key : User(user_name),as <name = user_name, borrowed_books = []> - vlaue}, 
-        print(f"{user_name} is added.")          #   "User(user_name)" access the (User)-class.
+        # self.users = {key - "user_name" : vlaue - "User(user_name)",as <name = user_name, borrowed_books = []>}
+        self.users[user_name] = User(user_name)  # "User(user_name)" access the (User)-class.
+        print(f"{user_name} is added.")          
 
     @staticmethod
     def view_books():
